@@ -8,6 +8,6 @@ class TestGreet < Minitest::Test
   end
 
   def test_run
-    assert_equal "Hello, LC, nice to meet you!", @greeter.run
+    assert_output(/Hello, LC, nice to meet you!/) { @greeter.run }
   end
 end
