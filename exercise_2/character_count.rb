@@ -1,7 +1,11 @@
 class CharacterCounter
   def run(characters)
-    cleaned_characters = remove_spaces(characters)
-    cleaned_characters.length
+    if characters.length > 0
+      cleaned_characters = remove_spaces(characters)
+      cleaned_characters.length
+    else
+      puts "Please enter some data"
+    end
   end
 
   private
