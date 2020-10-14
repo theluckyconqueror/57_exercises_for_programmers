@@ -20,12 +20,6 @@ class CharacterCounterTests < Minitest::Test
     assert_equal 9, @counter.run(characters)
   end
 
-  def test_no_input
-    skip
-    characters = nil
-    assert_output(/Please enter some data/) { @counter.run(characters) }
-  end
-
   def test_empty_string
     skip
     characters = ""
