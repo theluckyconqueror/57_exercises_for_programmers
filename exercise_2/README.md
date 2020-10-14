@@ -1,4 +1,4 @@
-# Exercise Number - Title
+# Exercise 2 - Counting the Number of Characters
 
 ## Example Output
 
