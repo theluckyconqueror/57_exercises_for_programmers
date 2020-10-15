@@ -10,12 +10,12 @@ class QuotePrinter
     puts @author + " says, " + @quote
   end
 
-  def get_quote(qte = nil)
+  def get_quote
     print "What is the quote? "
     @quote = gets.chomp.to_s
   end
 
-  def get_author(athr = nil)
+  def get_author
     print "Who said it? "
     @author = gets.chomp.to_s
   end
