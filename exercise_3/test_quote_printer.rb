@@ -2,7 +2,6 @@ require 'minitest/autorun'
 require 'minitest/pride'
 require 'minitest/hell'
 require_relative './input_faker.rb'
-
 require_relative './quote_printer.rb'
 
 class QuotePrinterTests < Minitest::Test
