@@ -32,8 +32,9 @@ end
 if __FILE__ == $PROGRAM_NAME
   calc = SimpleMath.new
   print "What is the first number? "
-  num1 = gets.chomp.to_i
+  num1 = gets.chomp
   print "What is the second number? "
-  num2 = gets.chomp.to_i
+  num2 = gets.chomp
+  num1, num2 = num1.to_i, num2.to_i
   calc.run(num1, num2)
 end
