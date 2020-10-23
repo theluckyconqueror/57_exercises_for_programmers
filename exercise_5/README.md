@@ -14,7 +14,7 @@ $ What is the first number? 10
 
 ## Constraints
 - Convert user input to numbers.
-- Seperate I/O from type conversion and any other processing.
+- Separate I/O from type conversion and any other processing.
 - Use one output statement with line breaks in appropriate spots.
 
 ## Challenges
