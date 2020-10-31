@@ -5,10 +5,11 @@ class RetirementCalculatorTests < Minitest::Test
 
   def setup
     @retirement_calc = RetirementCalculator.new
+    @year = DateTime.now.year
   end
 
   def test_get_current_year
-    assert_equal 2020, @retirement_calc.year
+    assert_equal @year, @retirement_calc.year
   end
 
   def test_cannot_retire_yet
