@@ -47,3 +47,14 @@ class PizzaPartyCalculator
     end
   end
 end
+
+if __FILE__ == $PROGRAM_NAME
+  print "How many people? "
+  people = gets.chomp.to_i
+  print "How many pizzas do you have? "
+  pizzas = gets.chomp.to_i
+  print "How many slices per pizza? "
+  slices = gets.chomp.to_i
+  calc = PizzaPartyCalculator.new(people: people, pizzas: pizzas, slices: slices)
+  calc.run
+end
