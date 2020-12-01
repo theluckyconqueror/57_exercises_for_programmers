@@ -63,11 +63,3 @@ Expected Output
 - Square Feet: (L x W) 300.000
 - Square Meters: (Sq Ft x 0.09290304) 27.871 
 ```
-
-```
-Input
--
-
-Expected Output
--
-```
