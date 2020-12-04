@@ -25,3 +25,12 @@ class CurrencyConverter
     end
   end
 end
+
+if __FILE__ == $PROGRAM_NAME
+  converter = CurrencyConverter.new
+  print "How many euros are you exchanging? "
+  initial_amount = gets.chomp.to_i
+  print "What is the exchange rate from EUR to USD? "
+  rate = gets.chomp.to_i
+  converter.run(amount: initial_amount, rate: rate)
+end
